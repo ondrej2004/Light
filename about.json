@@ -1,0 +1,27 @@
+{
+  "name": "Light",
+  "component": false,
+  "license_url": "https://github.com/ondrej2004/Light/blob/main/LICENSE",
+  "about_url": null,
+  "authors": "@Ondrejj - https://meta.discourse.org/u/ondrejj/summary",
+  "theme_version": "20.00",
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  
+  "color_schemes": {
+    "Light": {
+      "primary": "222222",
+      "secondary": "FFFFFF",
+      "tertiary": "0088CC",
+      "quaternary": "E45735",
+      "header_background": "FFFFFF",
+      "header_primary": "333333",
+      "highlight": "88CCF2",
+      "danger": "FF0000",
+      "success": "009900",
+      "love": "FA6C8D"
+    }
+  }
+}
