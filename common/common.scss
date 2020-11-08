@@ -4,33 +4,3 @@
     color: #0088CC !important;
     border-bottom: 2px dotted #fff !important;
 }
-
-/*make buttons round*/
-
-.btn {
-  border-radius: 4px;
-
-.btn-flat.close {
-    box-shadow: none;
-  }
-}
-
-//remove shadow from a few buttons
-.d-editor-button-bar .btn,
-.bulk-select-all,
-.bulk-clear-all,
-.period-chooser-header,
-.topic-map .btn.no-text,
-.badge-section .btn,
-#revision .btn,
-#new-account-link,
-#login-link {
-  border-radius: 0;
-  box-shadow: none;
-}
-
-/*make wiki post green*/
-
-.wiki .topic-body {
-    background-color: #dcffdc; /*light green*
-}
