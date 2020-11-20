@@ -16,3 +16,10 @@
 .names span.staff a {
    color: #000000;
 }
+
+
+.nav-pills>li a.active {
+    color: white;
+    background-color: #e45735;
+    border-radius: 6px;
+}
