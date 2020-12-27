@@ -5,6 +5,18 @@
     border-bottom: 2px dotted #fff !important;
 }
 
+/*date plus times on topic*/
+
+.timeline-date-wrapper .start-date {
+  &:before {
+    content: "Return to top"; // Change the text here
+  }
+
+  .d-label {
+    display: none; // hide the topic OP date
+  }
+}
+
 /*Wiki background colour*/
 
 .wiki .topic-body {
