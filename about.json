@@ -16,7 +16,7 @@
       "secondary": "F0F0F0",
       "tertiary": "0088CC",
       "quaternary": "E45735",
-      "header_background": "FFFFFF",
+      "header_background": "000000",
       "header_primary": "333333",
       "highlight": "0074B3",
       "danger": "FF0000",
