@@ -28,3 +28,14 @@
 .names span.staff a {
    color: #000000;
 }
+
+/*Nav Pills colour and shape*/
+
+.nav-pills>li a.active {
+    color: var(--secondary);
+    background-color: #0076ff;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
