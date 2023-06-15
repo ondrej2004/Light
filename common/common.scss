@@ -1,50 +1,33 @@
-/*Adds lines to links with staff colour*/
+// Staff colour
+.moderator .regular>.cooked {
+    background-color: #9cdcff !important;
+}
 
+// Link underline
 .moderator .regular>.cooked a, .user-stream .item.moderator-action .title a {
-    color: #0088CC !important;
-    border-bottom: 2px dotted #fff !important;
+    color: #ffffff !important;
+    border-bottom: 1px dotted #ffffff !important;
 }
 
-/*date plus times on topic*/
-
-.timeline-date-wrapper .start-date {
-  &:before {
-    content: "Return to top"; // Change the text here
-  }
-
-  .d-label {
-    display: none; // hide the topic OP date
-  }
+// Official Moderator post
+.moderator .cooked:after {
+    content: "Official Post";
+    font-size: large;
+    float:right;
+    padding: 5px;
+    background-color: #e45735;
+    border-radius: 6px;
+    color: #ffffff;
 }
 
-/*Wiki background colour*/
+// Wiki background colour
 
 .wiki .topic-body {
     background-color: #dcffdc;
 }
 
-/*Staff username colour*/
+// Staff username colour
 
 .names span.staff a {
    color: #000000;
-}
-
-/*Nav Pills colour and shape*/
-
-.nav-pills>li a.active {
-    color: var(--secondary);
-    background-color: #0076ff;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-top-left-radius: 1px;
-    border-bottom-right-radius: 1px;
-}
-
-.nav-pills>li>a:hover {
-    color: #FFFFFF;
-    background-color: #003C59;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-top-left-radius: 1px;
-    border-bottom-right-radius: 1px;
 }
