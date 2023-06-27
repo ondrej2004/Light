@@ -1,6 +1,7 @@
-// Staff colour
+// Staff Colour and glow
 .moderator .regular>.cooked {
     background-color: #9cdcff !important;
+    filter: drop-shadow(3px 3px 12px var(--highlight));
 }
 
 // Link underline
