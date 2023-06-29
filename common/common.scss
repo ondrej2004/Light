@@ -1,3 +1,9 @@
+// Staff colour and Glow
+.moderator .regular>.cooked {
+    background-color: #9CDCFF !important;
+    padding-bottom: 15px;
+}
+
 // Link underline
 .moderator .regular>.cooked a, .user-stream .item.moderator-action .title a {
     color: #ffffff !important;
