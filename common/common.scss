@@ -1,7 +1,9 @@
 // Staff Colour and glow
 .moderator .regular>.cooked {
-    background-color: #9cdcff !important;
+    background-color: #9CDCFF !important;
     filter: drop-shadow(3px 3px 12px var(--highlight));
+    border-radius: 20px;
+    padding-bottom: 15px;
 }
 
 // Link underline
