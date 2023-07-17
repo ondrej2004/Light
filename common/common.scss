@@ -32,3 +32,8 @@
 .names span.staff a {
    color: #000000;
 }
+
+// Notification count colour
+.d-header-icons .unread-notifications {
+    color: var(--primary);
+}
